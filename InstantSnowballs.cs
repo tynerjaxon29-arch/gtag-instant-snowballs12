@@ -32,9 +32,6 @@ public class InstantSnowballs : BaseUnityPlugin
         Debug.Log("[InstantSnowballs] Throwing snowball!");
 
         // You can improve this later with Harmony patches if you want zero cooldown
-        if (SnowballLauncher.Instance != null)
-        {
-            // Most menus already have better snowball spam built-in
-        }
+        
     }
 }
